@@ -5,6 +5,10 @@ import { Box, Flex, Link, Image,HStack, Icon, Text,Spacer,ButtonGroup,SimpleGrid
   Button,Heading,Grid,GridItem, Highlight, extendTheme} from '@chakra-ui/react';
 import TreandingAuctions from './TreandingAuctions';
 import Slider from '../Slider/Slider';
+import TopSellers from '../Slider/TopSellers';
+import MarketPlace from '../Market/MarketPlace';
+import BigGrid from './BigGrid/BigGrid';
+import Mint from './Mint/Mint';
 
 const fontSize = { base: "10px", sm: "12px", md: "15px", lg: "18px" };
 
@@ -82,8 +86,13 @@ const HomePage = () => {
     {/* section-2 Trending auctions */}
     <Slider/>
 
+    <TopSellers/>
 
-          {/* Homepage footer */}
+    <MarketPlace/>
+
+    <BigGrid/>
+
+    <Mint/>
           {/* <Footer></Footer> */}
 
     </Box>

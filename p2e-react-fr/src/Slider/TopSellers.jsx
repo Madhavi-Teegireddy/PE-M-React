@@ -1,18 +1,15 @@
-import "./slide.css";
+import "./top.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { productData, responsive } from "./data";
-import Product from "./Product";
 import { Heading } from "@chakra-ui/react";
+import TopS from "./TopS"
 
-
-function Slider() {
-  const product = productData.map((item) => (
-    <Product
-      name={item.name}
+function TopSellers() {
+  const tops = productData.map((item) => (
+    <TopS
       url={item.imageurl}
       price={item.price}
-      description={item.description}
     />
   ));
 
@@ -20,12 +17,12 @@ function Slider() {
     <div className="cont"> 
            <Heading color={"black"} marginBottom={"30px"} fontWeight="bold" marginLeft={"10px"}
            fontSize={{base: "25px", sm: "25px", md: "30px", lg: "30px"}} mt={{base:"30px"}}
-           >Trending Auctions</Heading>
-      <Carousel showDots={true} responsive={responsive}>
-        {product}
+           >Our Top Sellers</Heading>
+      <Carousel responsive={responsive}>
+        {tops}
       </Carousel>
     </div>
   );
 }
 
-export default Slider;
+export default TopSellers;
