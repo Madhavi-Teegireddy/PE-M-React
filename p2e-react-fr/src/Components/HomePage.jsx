@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import { Box, Flex, Link, Image,HStack, Icon, Text,Spacer,ButtonGroup,SimpleGrid,
   Button,Heading,Grid,GridItem, Highlight, extendTheme} from '@chakra-ui/react';
 import TreandingAuctions from './TreandingAuctions';
+import Slider from '../Slider/Slider';
 
 const fontSize = { base: "10px", sm: "12px", md: "15px", lg: "18px" };
 
@@ -79,7 +80,7 @@ const HomePage = () => {
 
 
     {/* section-2 Trending auctions */}
-    <TreandingAuctions/>
+    <Slider/>
 
 
           {/* Homepage footer */}
