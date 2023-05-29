@@ -17,11 +17,6 @@ const Footer = () => {
         justifyContent={"space-around"}
         alignItems={{ base: "center", md: "flex-start" }}
       >
-        {/* <VStack alignItems={{ base: "center", md: "flex-start" }}>
-          <Image w={{base:"30px", md:"40px", lg:"40px"}}
-          src="https://media.licdn.com/dms/image/C4D0BAQGFj5ERuYpzEw/company-logo_200_200/0/1672638104241?e=2147483647&v=beta&t=PmU3wu8FzVGG_ORgaq-jUCVqGs5EZW1yWmQxhQ1G2i0"
-          />
-        </VStack> */}
 
       <Flex alignItems={"center"} fontWeight={"bold"}>
         <NavLink to="/">
@@ -37,20 +32,20 @@ const Footer = () => {
         {/* col 2 */}
         <VStack alignItems={{ base: "center", md: "flex-start" }} color="gray">
           <Text as="b">Market Place</Text>
-          <Text _hover={{color:"orange.500"}}>For Individuals</Text>
-          <Text _hover={{color:"orange.500"}}>For Professionals</Text>
-          <Text _hover={{color:"orange.500"}}>Privacy</Text>
-          <Text _hover={{color:"orange.500"}}>Terms</Text>
+          <Text _hover={{color:"blue.500"}}>For Individuals</Text>
+          <Text _hover={{color:"blue.500"}}>For Professionals</Text>
+          <Text _hover={{color:"blue.500"}}>Privacy</Text>
+          <Text _hover={{color:"blue.500"}}>Terms</Text>
         </VStack>
 
         {/* col 3 */}
         <VStack alignItems={{ base: "center", md: "flex-start" }} color="gray">
           <Text as="b">Company</Text>
-          <Text _hover={{color:"orange.500"}}>About Us</Text>
-          <Text _hover={{color:"orange.500"}}>Crono Blog</Text>
-          <Text _hover={{color:"orange.500"}}>Crono Forums</Text>
-          <Text _hover={{color:"orange.500"}}>Jobs</Text>
-          <Text _hover={{color:"orange.500"}}>Support</Text>
+          <Text _hover={{color:"blue.500"}}>About Us</Text>
+          <Text _hover={{color:"blue.500"}}>Crono Blog</Text>
+          <Text _hover={{color:"blue.500"}}>Crono Forums</Text>
+          <Text _hover={{color:"blue.500"}}>Jobs</Text>
+          <Text _hover={{color:"blue.500"}}>Support</Text>
         </VStack>
 
         {/* col 4 */}

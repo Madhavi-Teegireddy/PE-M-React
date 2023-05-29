@@ -1,0 +1,56 @@
+.container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* border: 2px solid yellow; */
+    height: 650px;
+    margin-top: 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 30px;
+    box-shadow: rgba(214, 55, 214, 0.2) 0px 8px 24px;
+    background-color: whitesmoke;
+}
+
+.form label {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-image: linear-gradient(to right, rgb(60, 60, 189), rgb(123, 178, 214));
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 95%;
+    font-size: 15px;
+}
+
+input[type="submit"]:hover {
+    background-color: teal;
+
+}

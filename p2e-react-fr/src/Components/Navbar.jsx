@@ -1,13 +1,12 @@
 import React, { useContext } from "react";
 import { GiAppleSeeds } from "react-icons/gi";
-import { FaAppleAlt } from "react-icons/fa";
-import { FaSun, FaMoon, FaUserCheck } from "react-icons/fa";
-import { Button, Flex, Heading, Spacer, 
+import { FaSun, FaMoon, FaUserCheck, FaSearch} from "react-icons/fa";
+import { Button, Flex, Heading, Spacer, InputGroup, InputLeftElement, Input,
   Box, Image,  Text, useMediaQuery, HStack, IconButton, useColorMode,
-  Popover, PopoverTrigger,PopoverContent,PopoverHeader,PopoverArrow,PopoverCloseButton,PopoverBody,
    Link, useTheme} from "@chakra-ui/react";
 import { NavLink } from "react-router-dom";
 import DraewerNav from "./DraewerNav";
+import Login from "./Login/Login";
 
 const fontSize = { base: "10px", sm: "12px", md: "15px", lg: "18px" };
 
@@ -30,8 +29,14 @@ const Navbar = () => {
           ></Image>
          
         </NavLink>
-        <Text> P2E Pro</Text>
+        <Text>&nbsp; P2E Pro</Text>
       </Flex>
+              <InputGroup w={{base: "150px", sm: "150px", md: "200px", lg: "250px"}} marginRight={"100px"}>
+          <InputLeftElement pointerEvents='none'>
+            <FaSearch color='gray.300' />
+          </InputLeftElement>
+          <Input type='tel' placeholder='Collection, item or user' />
+        </InputGroup>
       {isMatch ? (
         <DraewerNav></DraewerNav>
       ) : (

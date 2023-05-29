@@ -24,7 +24,7 @@ const BigGrid = () => {
             <Text> @GHARLIERA</Text>
             <Text fontWeight={"bold"}>❤️</Text>
             </Box>    
-            <Heading fontWeight={"bold"} fontSize={"20px"} color={"gray"} marginTop={"-40px"}>Geometrical fig</Heading>
+            <Heading fontWeight={"bold"} fontSize={"20px"} textAlign={"center"} color={"gray"} marginTop={"-40px"}>Geometrical fig</Heading>
 
             <Box display="flex" h="auto" justifyContent="space-around" bg="lightgray" p={"3px"}
             marginTop={"-30px"}>
@@ -43,7 +43,7 @@ const BigGrid = () => {
             <Text> @GHARLIERA</Text>
             <Text fontWeight={"bold"}>❤️</Text>
             </Box>    
-            <Heading fontWeight={"bold"} fontSize={"20px"} color={"gray"} marginTop={"-40px"}>Geometrical fig</Heading>
+            <Heading fontWeight={"bold"} fontSize={"20px"} textAlign={"center"} color={"gray"} marginTop={"-40px"}>Geometrical fig</Heading>
 
             <Box display="flex" h="auto" justifyContent="space-around" bg="lightgray" p={"3px"}
             marginTop={"-30px"}>
@@ -62,7 +62,7 @@ const BigGrid = () => {
             <Text> @GHARLIERA</Text>
             <Text fontWeight={"bold"}>❤️</Text>
             </Box>    
-            <Heading fontWeight={"bold"} fontSize={"20px"} color={"gray"} marginTop={"-40px"}>Geometrical fig</Heading>
+            <Heading fontWeight={"bold"} fontSize={"20px"} textAlign={"center"} color={"gray"} marginTop={"-40px"}>Geometrical fig</Heading>
 
             <Box display="flex" h="auto" justifyContent="space-around" bg="lightgray" p={"3px"}
             marginTop={"-30px"}>
@@ -81,7 +81,7 @@ const BigGrid = () => {
             <Text> @GHARLIERA</Text>
             <Text fontWeight={"bold"}>❤️</Text>
             </Box>    
-            <Heading fontWeight={"bold"} fontSize={"20px"} color={"gray"} marginTop={"-40px"}>Geometrical fig</Heading>
+            <Heading fontWeight={"bold"} fontSize={"20px"} textAlign={"center"} color={"gray"} marginTop={"-40px"}>Geometrical fig</Heading>
 
             <Box display="flex" h="auto" justifyContent="space-around" bg="lightgray" p={"3px"}
             marginTop={"-30px"}>
@@ -100,7 +100,7 @@ const BigGrid = () => {
             <Text> @GHARLIERA</Text>
             <Text fontWeight={"bold"}>❤️</Text>
             </Box>    
-            <Heading fontWeight={"bold"} fontSize={"20px"} color={"gray"} marginTop={"-40px"}>Geometrical fig</Heading>
+            <Heading fontWeight={"bold"} fontSize={"20px"} textAlign={"center"} color={"gray"} marginTop={"-40px"}>Geometrical fig</Heading>
 
             <Box display="flex" h="auto" justifyContent="space-around" bg="lightgray" p={"3px"}
             marginTop={"-30px"}>
@@ -119,7 +119,7 @@ const BigGrid = () => {
             <Text> @GHARLIERA</Text>
             <Text fontWeight={"bold"}>❤️</Text>
             </Box>    
-            <Heading fontWeight={"bold"} fontSize={"20px"} color={"gray"} marginTop={"-40px"}>Geometrical fig</Heading>
+            <Heading fontWeight={"bold"} fontSize={"20px"} textAlign={"center"} color={"gray"} marginTop={"-40px"}>Geometrical fig</Heading>
 
             <Box display="flex" h="auto" justifyContent="space-around" bg="lightgray" p={"3px"}
             marginTop={"-30px"}>
@@ -138,7 +138,7 @@ const BigGrid = () => {
             <Text> @GHARLIERA</Text>
             <Text fontWeight={"bold"}>❤️</Text>
             </Box>    
-            <Heading fontWeight={"bold"} fontSize={"20px"} color={"gray"} marginTop={"-40px"}>Geometrical fig</Heading>
+            <Heading fontWeight={"bold"} fontSize={"20px"} textAlign={"center"} color={"gray"} marginTop={"-40px"}>Geometrical fig</Heading>
 
             <Box display="flex" h="auto" justifyContent="space-around" bg="lightgray" p={"3px"}
             marginTop={"-30px"}>
@@ -157,7 +157,7 @@ const BigGrid = () => {
             <Text> @GHARLIERA</Text>
             <Text fontWeight={"bold"}>❤️</Text>
             </Box>    
-            <Heading fontWeight={"bold"} fontSize={"20px"} color={"gray"} marginTop={"-40px"}>Geometrical fig</Heading>
+            <Heading fontWeight={"bold"} fontSize={"20px"} textAlign={"center"} color={"gray"} marginTop={"-40px"}>Geometrical fig</Heading>
 
             <Box display="flex" h="auto" justifyContent="space-around" bg="lightgray" p={"3px"}
             marginTop={"-30px"}>
