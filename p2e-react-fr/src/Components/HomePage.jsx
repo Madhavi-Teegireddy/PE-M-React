@@ -9,6 +9,7 @@ import TopSellers from '../Slider/TopSellers';
 import MarketPlace from '../Market/MarketPlace';
 import BigGrid from './BigGrid/BigGrid';
 import Mint from './Mint/Mint';
+import Footer from "./Footer"
 
 const fontSize = { base: "10px", sm: "12px", md: "15px", lg: "18px" };
 
@@ -93,7 +94,8 @@ const HomePage = () => {
     <BigGrid/>
 
     <Mint/>
-          {/* <Footer></Footer> */}
+    
+    <Footer></Footer>
 
     </Box>
 
