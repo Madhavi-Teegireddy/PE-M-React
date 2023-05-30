@@ -68,3 +68,33 @@ h2 {
     display: flex;
     justify-content: space-between;
 }
+
+/* top.css */
+.cont {
+    position: relative;
+}
+
+.cont .react-multiple-carousel__arrow {
+    background-color: black;
+    cursor: pointer;
+    position: absolute;
+    top: calc(50% - 20px);
+    /* Half the height of the arrow */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.cont .react-multiple-carousel__arrow--left {
+    left: 1100px;
+    top:0;
+}
+
+.cont .react-multiple-carousel__arrow--right {
+    right: 0;
+    top:0
+}

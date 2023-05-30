@@ -1,7 +1,7 @@
 import { Grid, GridItem, Text, Box, Image, Heading, Button } from "@chakra-ui/react";
 import React, { useState } from "react";
 
-const BigGrid = () => {
+const StaticData = () => {
     const [visibleItems, setVisibleItems] = useState(4);
 
   const data = [
@@ -37,9 +37,7 @@ const BigGrid = () => {
       >
         {data.slice(0, visibleItems).map((item, index) => (
 
-        <GridItem key={index} w="80%" margin={"auto"} display={"grid"} gap={5} border={"1px solid lightgray"}
-        boxShadow={"rgba(0, 0, 0, 0.35) 0px 5px 15px"} _hover={{border:"2px solid blue"}}
-        borderRadius={"10px"}>
+        <GridItem key={index} w="80%" margin={"auto"} display={"grid"} gap={5} border={"1px solid lightgray"} borderRadius={"10px"}>
             <Box display="flex" justifyContent="space-around" marginTop={"10px"}>
             <Text>@GHARLIERA</Text>
             <Text fontWeight={"bold"}>...</Text>
@@ -61,7 +59,7 @@ const BigGrid = () => {
         </Grid>       
       
         {visibleItems < data.length && (
-        <Button onClick={handleViewMore} my={4} marginTop={"40px"} bg="blue" color="white" _hover={{bg:"orange.600"}}>
+        <Button onClick={handleViewMore} my={4} bg="blue" color="white" _hover={{bg:"orange.600"}}>
           View More
         </Button>
       )}
@@ -69,4 +67,4 @@ const BigGrid = () => {
   );
 };
 
-export default BigGrid;
+export default StaticData;

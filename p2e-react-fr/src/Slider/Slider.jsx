@@ -3,7 +3,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { productData, responsive } from "./data";
 import Product from "./Product";
-import { Heading } from "@chakra-ui/react";
+import { Heading, Box, Button} from "@chakra-ui/react";
 
 
 function Slider() {
@@ -16,15 +16,20 @@ function Slider() {
     />
   ));
 
-  return (
+  return (<>
+
     <div className="cont"> 
-           <Heading color={"black"} marginBottom={"30px"} fontWeight="bold" marginLeft={"10px"}
-           fontSize={{base: "25px", sm: "25px", md: "30px", lg: "30px"}} mt={{base:"30px"}}
+        <Box display="flex" justifyContent={"space-between"}>
+          <Heading color={"black.600"} fontWeight="bold" marginLeft={"10px"}  marginBottom={"40px"}
+           fontSize={{base: "25px", sm: "25px", md: "30px", lg: "30px"}}  
            >Trending Auctions</Heading>
+        <Button marginRight={"30px"}  marginBottom={"40px"}>View all -- </Button>
+        </Box>    
       <Carousel showDots={true} responsive={responsive}>
         {product}
       </Carousel>
     </div>
+    </>
   );
 }
 

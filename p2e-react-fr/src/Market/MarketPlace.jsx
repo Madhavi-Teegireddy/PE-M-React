@@ -8,7 +8,7 @@ const MarketPlace = () => {
     <div>
 
         <Box p="1" display="flex" justifyContent={"space-between"} marginTop={"40px"}>
-        <Heading color={"black"} textAlign={"left"} marginLeft={"60px"} fontWeight="bold"
+        <Heading color={"black.600"} textAlign={"left"} marginLeft={"60px"} fontWeight="bold"
            fontSize={{base: "25px", sm: "25px", md: "30px", lg: "30px"}} mt={{base:"30px"}}>Market Place
         </Heading>
 
@@ -29,49 +29,57 @@ const MarketPlace = () => {
         alignItems={"center"} marginBottom={"40px"}
       >
 
-        <GridItem w="80%" margin={"auto"} display={"grid"} gap={5}>
+        <GridItem w="80%" margin={"auto"} display={"grid"} gap={5}
+        boxShadow={"rgba(0, 0, 0, 0.35) 0px 5px 15px"} _hover={{border:"2px solid blue"}} borderRadius={"15px"}>
           <Button color={"text"} fontSize={20}  _hover={{ color: "white",bg:"blue" }} borderRadius={"10px"} border={"1px solid gray"}>
           Trending
           </Button>
         </GridItem>
 
-        <GridItem w="80%" margin={"auto"} display={"grid"} gap={5}>
+        <GridItem w="80%" margin={"auto"} display={"grid"} gap={5} boxShadow={"rgba(0, 0, 0, 0.35) 0px 5px 15px"}
+        _hover={{border:"2px solid blue"}} borderRadius={"15px"}>
           <Button color={"text"} fontSize={20}   _hover={{ color: "white",bg:"blue" }} borderRadius={"10px"} border={"1px solid gray"}>
            Art
           </Button>
         </GridItem>
 
-        <GridItem w="80%" margin={"auto"} display={"grid"} gap={5}>
+        <GridItem w="80%" margin={"auto"} display={"grid"} gap={5} boxShadow={"rgba(0, 0, 0, 0.35) 0px 5px 15px"}
+        _hover={{border:"2px solid blue"}} borderRadius={"15px"}>
           <Button color={"text"} fontSize={20}   _hover={{ color: "white",bg:"blue" }} borderRadius={"10px"} border={"1px solid gray"}>
             Music
           </Button>
         </GridItem>
 
-        <GridItem w="80%" margin={"auto"} display={"grid"} gap={5}>
+        <GridItem w="80%" margin={"auto"} display={"grid"} gap={5} boxShadow={"rgba(0, 0, 0, 0.35) 0px 5px 15px"}
+        _hover={{border:"2px solid blue"}} borderRadius={"15px"}>
           <Button color={"text"} fontSize={20}  _hover={{ color: "white",bg:"blue" }} borderRadius={"10px"} border={"1px solid gray"}>
             Videos
           </Button>
         </GridItem>
 
-        <GridItem w="80%" margin={"auto"} display={"grid"} gap={5}>
+        <GridItem w="80%" margin={"auto"} display={"grid"} gap={5} boxShadow={"rgba(0, 0, 0, 0.35) 0px 5px 15px"}
+        _hover={{border:"2px solid blue"}} borderRadius={"15px"}>
           <Button color={"text"} fontSize={20}   _hover={{ color: "white",bg:"blue" }} borderRadius={"10px"} border={"1px solid gray"}>
             Sports
           </Button>
         </GridItem>
 
-        <GridItem w="80%" margin={"auto"} display={"grid"} gap={5}>
+        <GridItem w="80%" margin={"auto"} display={"grid"} gap={5} boxShadow={"rgba(0, 0, 0, 0.35) 0px 5px 15px"}
+        _hover={{border:"2px solid blue"}} borderRadius={"15px"}>
           <Button color={"text"} fontSize={20}   _hover={{ color: "white",bg:"blue" }} borderRadius={"10px"} border={"1px solid gray"}>
             Utility
           </Button>
         </GridItem>
                 
-        <GridItem w="85%" margin={"auto"} display={"grid"} gap={5}>
+        <GridItem w="85%" margin={"auto"} display={"grid"} gap={5} boxShadow={"rgba(0, 0, 0, 0.35) 0px 5px 15px"}
+        _hover={{border:"2px solid blue"}} borderRadius={"15px"}>
           <Button color={"text"} fontSize={18}   _hover={{ color: "white",bg:"blue" }} borderRadius={"10px"} border={"1px solid gray"}>
             Photography
           </Button>
         </GridItem>
 
-        <GridItem w="80%" margin={"auto"} display={"grid"} gap={5}>
+        <GridItem w="80%" margin={"auto"} display={"grid"} gap={5} boxShadow={"rgba(0, 0, 0, 0.35) 0px 5px 15px"}
+        _hover={{border:"2px solid blue"}} borderRadius={"15px"}>
           <Button color={"text"} fontSize={20}  _hover={{ color: "white",bg:"blue" }} borderRadius={"10px"} border={"1px solid gray"}>
             Game
           </Button>

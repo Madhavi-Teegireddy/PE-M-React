@@ -6,7 +6,6 @@ import { Button, Flex, Heading, Spacer, InputGroup, InputLeftElement, Input,
    Link, useTheme} from "@chakra-ui/react";
 import { NavLink } from "react-router-dom";
 import DraewerNav from "./DraewerNav";
-import Login from "./Login/Login";
 
 const fontSize = { base: "10px", sm: "12px", md: "15px", lg: "18px" };
 
@@ -20,7 +19,8 @@ const Navbar = () => {
 
   console.log("theme:", theme);
   return (
-    <Flex boxShadow="md" width="full" h={20} paddingInline={5} marginRight={4} justifyContent={"space-between"} alignItems={"center"} gap="2">
+    <Flex boxShadow="md" width="full" h={20} paddingInline={5} marginRight={4} justifyContent={"space-between"} alignItems={"center"} gap="2"
+     >
       <Flex alignItems={"center"} fontWeight={"bold"}>
         <NavLink to="/">
           <Image
