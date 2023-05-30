@@ -19,7 +19,8 @@ const Navbar = () => {
 
   console.log("theme:", theme);
   return (
-    <Flex boxShadow="md" width="full" h={20} paddingInline={5} marginRight={4} justifyContent={"space-between"} alignItems={"center"} gap="2"
+    <Flex position="fixed" top={0} left={0} right={0} boxShadow="md" width="full" h={20} paddingInline={5} marginRight={4}
+        justifyContent="space-between" alignItems="center" gap="2" bg="white" zIndex="999"
      >
       <Flex alignItems={"center"} fontWeight={"bold"}>
         <NavLink to="/">
